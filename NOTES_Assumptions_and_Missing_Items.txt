@@ -1,0 +1,68 @@
+NOTES - ASSUMPTIONS AND ITEMS THAT WERE UNCLEAR OR NOT INCLUDED
+================================================================
+
+A. ITEMS NOT INCLUDED BECAUSE THE MANUAL DOES NOT GIVE THEM
+-----------------------------------------------------------
+1. Appendix 1, Task 29 ("WAP to print the following pattern. List of
+   Patterns"): the patterns are only given through a hyperlink, and the
+   link in the PDF has no web address, so the patterns cannot be read.
+   No program was written, to avoid inventing a pattern.
+   -> Please check the 'List of Patterns' with your teacher / the course page
+      and tell me which pattern(s) are needed.
+
+2. Appendix 1, Task 30 ("WAP to the following series where user enters the
+   value for n. Also compute the value of the series"): the series itself is
+   missing in the PDF (no formula or picture). No program was written.
+   -> Please send the series formula.
+
+3. Assignments 1, 2 and 3: the question text is blank in the manual
+   ("Question: ."), so there is no programming task to complete.
+
+B. THINGS IN THE MANUAL THAT ARE NOT C PROGRAMS (NOT CREATED)
+-------------------------------------------------------------
+- Flowcharts requested in Experiment 2 (Task 1 and Task 2), Experiment 4
+  (Task 1) and Appendix 1 Task 17.
+- GitHub screenshots, Conclusion, CO's Covered, Pre-Lab and Post-Lab
+  questions of each experiment.
+- The algorithm requested in Appendix 1 Task 16 IS included as a comment at
+  the top of that program.
+
+C. ASSUMPTIONS MADE WHERE THE TASK STATEMENT LEAVES ROOM
+--------------------------------------------------------
+- Experiment 1 Task 1: class is printed as "FE (Sem 1)" (taken from the Lab
+  File page of the manual).
+- Experiment 1 Task 2: marks are out of 100 for each subject; a student is
+  "eligible" when the AVERAGE of the three subjects is 50% or more.
+- Experiment 2 Task 2: "between" the two numbers does not include the
+  numbers themselves. If the first number is bigger, the numbers are swapped.
+- Experiment 3: the manual only gives the title. The menu has: enter
+  marks (5 subjects out of 100), total and percentage, grade, result
+  (pass needs at least 40 in every subject), report card, exit.
+  switch is used for the menu and the grade, goto for returning to the menu
+  and for exiting.
+- Experiment 5 / Appendix Task 40: N is limited (90 iterative, 40 recursive)
+  so that numbers do not overflow and recursion does not become too slow.
+- Experiment 6: one program shows static (the counter), extern (a global
+  total), auto and register.
+- Experiment 11: the manual only says "simple employee database using file
+  handling". The program stores ID, name, designation and salary and offers
+  Add / Display / Update designation and salary, as listed for
+  Experiment 11 in the Practicals Syllabus (Appendix 4) of the manual.
+- Appendix 1 Task 4 (letter): the sample in the manual uses "john"/"John
+  Doe"; the program uses the student name instead.
+- Appendix 1 Task 9 (LED resistor): the manual gives no values. The program
+  asks for supply voltage, LED forward voltage and LED current and uses
+  R = (V - Vf) / I.
+- Appendix 1 Task 19 (BMI): height in metres, weight in kilograms.
+- Appendix 1 Task 38: the hexagon is a regular hexagon (side entered by user).
+- Appendix 1 Task 50: the clock is simulated (no waiting between seconds).
+- Appendix 1 Task 49: strrev() is not standard C, so strlen() and strcpy()
+  from string.h are used together with a loop.
+
+D. TESTING
+----------
+All 70 programs were compiled with GCC 13.3 on Linux (not on Windows
+MSYS2 UCRT64) using -Wall -Wextra -pedantic -std=c99 and without any
+warnings, and each program was run with sample inputs (see
+SAMPLE_OUTPUTS.txt). The programs use only standard C, so they should
+behave the same in MSYS2 UCRT64, but they were not run there.

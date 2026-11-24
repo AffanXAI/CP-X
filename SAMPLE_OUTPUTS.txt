@@ -1,0 +1,882 @@
+SAMPLE INPUT AND OUTPUT
+======================================================================
+These samples were produced by compiling and running each program.
+Each sample shows what you see in the terminal: the program prompts,
+and the values typed by the user (followed by Enter) appear after the prompts.
+
+----------------------------------------------------------------------
+Experiment_01/Task_01_print_details.c
+----------------------------------------------------------------------
+
+		==============================
+		"STUDENT DETAILS"
+		==============================
+
+	Name     :	Affan
+	Age      :	20
+	Class    :	FE (Sem 1)
+	Division :	B
+	UIN      :	261P030
+
+	Path example : C:\Programs\Lab
+
+----------------------------------------------------------------------
+Experiment_01/Task_02_pcm_average_eligibility.c
+----------------------------------------------------------------------
+Enter marks in Physics (out of 100)   : 60
+Enter marks in Chemistry (out of 100) : 55
+Enter marks in Maths (out of 100)     : 40
+
+Average marks in PCM = 51.67%
+Result : Eligible for admission
+
+----------------------------------------------------------------------
+Experiment_02/Task_01_even_odd.c
+----------------------------------------------------------------------
+Enter an integer: 7
+7 is an ODD number.
+
+----------------------------------------------------------------------
+Experiment_02/Task_02_sum_odd_numbers.c
+----------------------------------------------------------------------
+Enter the first number  : 1
+Enter the second number : 10
+Odd numbers between 1 and 10 are: 3 5 7 9 
+Sum of odd numbers = 24
+
+----------------------------------------------------------------------
+Experiment_03/Task_01_student_grade_result_system.c
+----------------------------------------------------------------------
+
+===== STUDENT GRADE AND RESULT MANAGEMENT SYSTEM =====
+1. Enter student details and marks
+2. Calculate total and percentage
+3. Show grade
+4. Show result (Pass / Fail)
+5. Display complete report card
+6. Exit
+Enter your choice (1-6): 1
+Enter student name (single word): Riya
+Enter marks of subject 1 (0-100): 80
+Enter marks of subject 2 (0-100): 70
+Enter marks of subject 3 (0-100): 90
+Enter marks of subject 4 (0-100): 100
+Enter marks of subject 5 (0-100): 60
+Marks saved successfully.
+
+===== STUDENT GRADE AND RESULT MANAGEMENT SYSTEM =====
+1. Enter student details and marks
+2. Calculate total and percentage
+3. Show grade
+4. Show result (Pass / Fail)
+5. Display complete report card
+6. Exit
+Enter your choice (1-6): 2
+
+Total marks = 400 out of 500
+Percentage  = 80.00%
+
+===== STUDENT GRADE AND RESULT MANAGEMENT SYSTEM =====
+1. Enter student details and marks
+2. Calculate total and percentage
+3. Show grade
+4. Show result (Pass / Fail)
+5. Display complete report card
+6. Exit
+Enter your choice (1-6): 3
+
+Grade of Riya = A
+
+===== STUDENT GRADE AND RESULT MANAGEMENT SYSTEM =====
+1. Enter student details and marks
+2. Calculate total and percentage
+3. Show grade
+4. Show result (Pass / Fail)
+5. Display complete report card
+6. Exit
+Enter your choice (1-6): 4
+
+Result of Riya : PASS
+
+===== STUDENT GRADE AND RESULT MANAGEMENT SYSTEM =====
+1. Enter student details and marks
+2. Calculate total and percentage
+3. Show grade
+4. Show result (Pass / Fail)
+5. Display complete report card
+6. Exit
+Enter your choice (1-6): 5
+
+------------- REPORT CARD -------------
+Name : Riya
+Subject 1 : 80
+Subject 2 : 70
+Subject 3 : 90
+Subject 4 : 100
+Subject 5 : 60
+Total      : 400
+Percentage : 80.00%
+---------------------------------------
+
+===== STUDENT GRADE AND RESULT MANAGEMENT SYSTEM =====
+1. Enter student details and marks
+2. Calculate total and percentage
+3. Show grade
+4. Show result (Pass / Fail)
+5. Display complete report card
+6. Exit
+Enter your choice (1-6): 6
+
+Thank you for using the system. Goodbye!
+
+----------------------------------------------------------------------
+Experiment_04/Task_01_prime_numbers_between_two_numbers.c
+----------------------------------------------------------------------
+Enter the first number  : 10
+Enter the second number : 30
+Prime numbers between 10 and 30 are: 11 13 17 19 23 29 
+Total prime numbers found = 6
+
+----------------------------------------------------------------------
+Experiment_05/Task_01_fibonacci_iterative.c
+----------------------------------------------------------------------
+Enter the number of terms (N): 10
+Fibonacci series (iterative) for 10 terms:
+0 1 1 2 3 5 8 13 21 34 
+
+----------------------------------------------------------------------
+Experiment_05/Task_02_fibonacci_recursive.c
+----------------------------------------------------------------------
+Enter the number of terms (N): 10
+Fibonacci series (recursive) for 10 terms:
+0 1 1 2 3 5 8 13 21 34 
+
+----------------------------------------------------------------------
+Experiment_06/Task_01_counter_function_storage_classes.c
+----------------------------------------------------------------------
+Calling counter() 5 times:
+counter() has been called 1 time(s)
+counter() has been called 2 time(s)
+counter() has been called 3 time(s)
+counter() has been called 4 time(s)
+counter() has been called 5 time(s)
+
+Total calls recorded by the global variable = 5
+
+----------------------------------------------------------------------
+Experiment_07/Task_01_largest_element_in_array.c
+----------------------------------------------------------------------
+Enter the number of elements (1 to 100): 5
+Enter element 1: 12
+Enter element 2: -4
+Enter element 3: 99
+Enter element 4: 7
+Enter element 5: 50
+The largest element in the array is: 99
+
+----------------------------------------------------------------------
+Experiment_07/Task_02_sum_of_two_matrices.c
+----------------------------------------------------------------------
+Enter the number of rows (1 to 10)    : 2
+Enter the number of columns (1 to 10) : 2
+
+Enter the elements of the first matrix:
+A[1][1] = 1
+A[1][2] = 2
+A[2][1] = 3
+A[2][2] = 4
+
+Enter the elements of the second matrix:
+B[1][1] = 5
+B[1][2] = 6
+B[2][1] = 7
+B[2][2] = 8
+
+Sum of the two matrices:
+    6    8
+   10   12
+
+----------------------------------------------------------------------
+Experiment_08/Task_01_string_length_without_library.c
+----------------------------------------------------------------------
+Enter a string: Hello World
+Length of the string = 11
+
+----------------------------------------------------------------------
+Experiment_08/Task_02_palindrome_string.c
+----------------------------------------------------------------------
+Enter a string: madam
+The string is a palindrome.
+
+----------------------------------------------------------------------
+Experiment_09/Task_01_student_record_topper.c
+----------------------------------------------------------------------
+
+--- Enter details of student 1 ---
+Name         : Asha Rao
+Roll number  : 1
+Total marks  : 420
+
+--- Enter details of student 2 ---
+Name         : Ben
+Roll number  : 2
+Total marks  : 455.5
+
+--- Enter details of student 3 ---
+Name         : Chitra
+Roll number  : 3
+Total marks  : 390
+
+--- Enter details of student 4 ---
+Name         : Dev
+Roll number  : 4
+Total marks  : 455
+
+--- Enter details of student 5 ---
+Name         : Emi
+Roll number  : 5
+Total marks  : 300
+
+========== TOPPER ==========
+Name         : Ben
+Roll number  : 2
+Total marks  : 455.50
+
+----------------------------------------------------------------------
+Experiment_10/Task_01_add_two_numbers_using_pointers.c
+----------------------------------------------------------------------
+Enter the first number  : 15
+Enter the second number : 27
+Sum of 15 and 27 = 42
+
+----------------------------------------------------------------------
+Experiment_10/Task_02_reverse_array_using_pointers.c
+----------------------------------------------------------------------
+Enter the number of elements (1 to 100): 5
+Enter element 1: 1
+Enter element 2: 2
+Enter element 3: 3
+Enter element 4: 4
+Enter element 5: 5
+Array in reverse order: 5 4 3 2 1 
+
+----------------------------------------------------------------------
+Experiment_11/Task_01_employee_database_file_handling.c  (FIRST RUN: add 2 employees, display)
+----------------------------------------------------------------------
+
+===== EMPLOYEE DATABASE =====
+1. Add employee
+2. Display all employees
+3. Update employee designation and salary
+4. Exit
+Enter your choice (1-4): 1
+Enter employee ID     : 101
+Enter employee name   : Asha Rao
+Enter designation     : Software Engineer
+Enter employee salary : 45000.50
+Employee added and saved to file.
+
+===== EMPLOYEE DATABASE =====
+1. Add employee
+2. Display all employees
+3. Update employee designation and salary
+4. Exit
+Enter your choice (1-4): 1
+Enter employee ID     : 102
+Enter employee name   : Ben Fernandes
+Enter designation     : Clerk
+Enter employee salary : 52000
+Employee added and saved to file.
+
+===== EMPLOYEE DATABASE =====
+1. Add employee
+2. Display all employees
+3. Update employee designation and salary
+4. Exit
+Enter your choice (1-4): 2
+
+ID     Name                   Designation          Salary    
+------------------------------------------------------------
+101    Asha Rao               Software Engineer    45000.50  
+102    Ben Fernandes          Clerk                52000.00  
+
+===== EMPLOYEE DATABASE =====
+1. Add employee
+2. Display all employees
+3. Update employee designation and salary
+4. Exit
+Enter your choice (1-4): 4
+Goodbye!
+
+----------------------------------------------------------------------
+Experiment_11/Task_01_employee_database_file_handling.c  (SECOND RUN: data is still saved; update designation and salary)
+----------------------------------------------------------------------
+
+===== EMPLOYEE DATABASE =====
+1. Add employee
+2. Display all employees
+3. Update employee designation and salary
+4. Exit
+Enter your choice (1-4): 3
+Enter the ID of the employee to update: 102
+Current designation of Ben Fernandes is Clerk, salary 52000.00
+Enter the new designation: Senior Clerk
+Enter the new salary: 60000
+Employee updated and saved to file.
+
+===== EMPLOYEE DATABASE =====
+1. Add employee
+2. Display all employees
+3. Update employee designation and salary
+4. Exit
+Enter your choice (1-4): 2
+
+ID     Name                   Designation          Salary    
+------------------------------------------------------------
+101    Asha Rao               Software Engineer    45000.50  
+102    Ben Fernandes          Senior Clerk         60000.00  
+
+===== EMPLOYEE DATABASE =====
+1. Add employee
+2. Display all employees
+3. Update employee designation and salary
+4. Exit
+Enter your choice (1-4): 4
+Goodbye!
+
+Content of the file employees.txt after the second run:
+    101|Asha Rao|Software Engineer|45000.50
+    102|Ben Fernandes|Senior Clerk|60000.00
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_01/Task_01_print_name.c
+----------------------------------------------------------------------
+My name is Affan
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_01/Task_02_print_pattern.c
+----------------------------------------------------------------------
+*                   * 
+* *               * * 
+* * *           * * * 
+* * * *       * * * * 
+* * * * *   * * * * * 
+* * * * *   * * * * * 
+* * * *       * * * * 
+* * *           * * * 
+* *               * * 
+*                   * 
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_01/Task_03_print_table.c
+----------------------------------------------------------------------
++----------+----------------------+-------+
+| Roll No. | Name of Student      | Marks |
++----------+----------------------+-------+
+| 1        | Jon Doe              | 35    |
++----------+----------------------+-------+
+| 2        | Ranchordas Chanchad  | 37    |
++----------+----------------------+-------+
+| 3        | Sanjay Singh         | 56    |
++----------+----------------------+-------+
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_01/Task_04_print_letter.c
+----------------------------------------------------------------------
+To,
+The Principal,
+Rizvi College of Engineering,
+Bandra (W).
+
+
+		Subject : Requesting some books for the library,
+
+
+Dear Sir/Madam,
+	Myself Affan would like to request purchase the following books for the library.
+
+_______________________________________________________________________________
+|Title                              |Author                   |Publication   |
+|___________________________________|_________________________|______________|
+|C Programming                      |Balguruswami             |McGraw Hill   |
+|___________________________________|_________________________|______________|
+|Python Programming                 |Simon Says               |Pearsons      |
+|___________________________________|_________________________|______________|
+
+
+Thanking you in anticipation.
+Regards,
+Affan.
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_02/Task_05_area_of_square.c
+----------------------------------------------------------------------
+Enter the side of the square: 4.5
+Area of the square = 20.25
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_02/Task_06_simple_interest.c
+----------------------------------------------------------------------
+Enter the principal amount          : 10000
+Enter the rate of interest (% p.a.) : 5
+Enter the number of years           : 2
+Simple interest = 1000.00
+Total amount    = 11000.00
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_02/Task_07_sum_and_average_of_three_numbers.c
+----------------------------------------------------------------------
+Enter the first number  : 10
+Enter the second number : 20
+Enter the third number  : 35
+Sum     = 65.00
+Average = 21.67
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_02/Task_08_circle_perimeter_and_area_constants.c
+----------------------------------------------------------------------
+Enter the radius of the circle: 7
+Perimeter of the circle = 43.98
+Area of the circle      = 153.94
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_02/Task_09_led_series_resistor.c
+----------------------------------------------------------------------
+Enter the supply voltage V (volts)              : 9
+Enter the LED forward voltage Vf (volts)        : 2
+Enter the LED current I (milliamperes, e.g. 20) : 20
+Required series resistance R = 350.00 ohms
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_03/Task_10_gross_salary.c
+----------------------------------------------------------------------
+Enter the basic salary: 10000
+
+Basic salary                 = 10000.00
+Travelling Allowance (20%)   = 2000.00
+Dearness Allowance (80%)     = 8000.00
+Home Rental Allowance (15%)  = 1500.00
+Gross salary                 = 21500.00
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_03/Task_11_swap_with_temporary_variable.c
+----------------------------------------------------------------------
+Enter the first number  : 3
+Enter the second number : 8
+
+Before swapping: first = 3, second = 8
+After swapping : first = 8, second = 3
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_03/Task_12_swap_without_temporary_variable.c
+----------------------------------------------------------------------
+Enter the first number  : 3
+Enter the second number : 8
+
+Before swapping: first = 3, second = 8
+After swapping : first = 8, second = 3
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_03/Task_13_even_using_conditional_operator.c
+----------------------------------------------------------------------
+Enter a number: 6
+6 is an even number
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_03/Task_14_greatest_of_three_conditional_operator.c
+----------------------------------------------------------------------
+Enter the first number  : 5
+Enter the second number : 19
+Enter the third number  : 12
+The greatest number is: 19
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_03/Task_15_sum_without_plus_operator.c
+----------------------------------------------------------------------
+Enter the first integer  : 25
+Enter the second integer : 17
+Sum = 42
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_04/Task_16_vowel_or_not.c
+----------------------------------------------------------------------
+Enter a character: E
+'E' is a vowel.
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_04/Task_17_lower_upper_case_conversion.c
+----------------------------------------------------------------------
+Enter a character: g
+Upper case of 'g' is 'G'
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_04/Task_18_leap_year.c
+----------------------------------------------------------------------
+Enter a year: 2024
+2024 is a leap year.
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_04/Task_19_bmi_and_category.c
+----------------------------------------------------------------------
+Enter your height in metres (e.g. 1.70) : 1.70
+Enter your weight in kilograms          : 70
+Your BMI = 24.2
+Category : Normal weight
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_04/Task_20_right_angled_triangle.c
+----------------------------------------------------------------------
+Enter the three sides of the triangle: 5 3 4
+5, 3 and 4 are the sides of a right angled triangle.
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_05/Task_21_quadratic_equation_roots.c
+----------------------------------------------------------------------
+Enter the coefficients a, b and c: 1 -5 6
+The roots are real and different.
+Root 1 = 3.00
+Root 2 = 2.00
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_05/Task_22_weekday_name_switch.c
+----------------------------------------------------------------------
+Enter the weekday number (1-7): 3
+Wednesday
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_05/Task_23_calculator_switch.c
+----------------------------------------------------------------------
+Enter the first number  : 12
+Enter the operator (+, -, *, /) : *
+Enter the second number : 3
+12.00 * 3.00 = 36.00
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_05/Task_24_calculator_repeat_with_goto.c
+----------------------------------------------------------------------
+
+Enter the first number  : 10
+Enter the operator (+, -, *, /) : +
+Enter the second number : 5
+10.00 + 5.00 = 15.00
+
+Do you want to calculate again? (y/n): y
+
+Enter the first number  : 8
+Enter the operator (+, -, *, /) : /
+Enter the second number : 2
+8.00 / 2.00 = 4.00
+
+Do you want to calculate again? (y/n): n
+Calculator closed. Goodbye!
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_05/Task_25_height_of_building.c
+----------------------------------------------------------------------
+Enter the distance from the building (in metres) : 50
+Enter the angle of elevation (in degrees)        : 30
+Height of the building = 28.87 metres
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_06/Task_26_prime_number_check.c
+----------------------------------------------------------------------
+Enter a number: 29
+29 is a prime number.
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_06/Task_27_sum_and_average_of_numbers.c
+----------------------------------------------------------------------
+How many numbers do you want to enter? 4
+Enter number 1: 10
+Enter number 2: 20
+Enter number 3: 30
+Enter number 4: 41
+Sum     = 101.00
+Average = 25.25
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_06/Task_28_fibonacci_till_number_reached.c
+----------------------------------------------------------------------
+Enter the number up to which the series should be printed: 50
+Fibonacci series up to 50: 0 1 1 2 3 5 8 13 21 34 
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_07/Task_31_lcm_and_gcd_while_loop.c
+----------------------------------------------------------------------
+Enter the first number  : 12
+Enter the second number : 18
+GCD of 12 and 18 = 6
+LCM of 12 and 18 = 36
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_07/Task_32_armstrong_number_do_while.c
+----------------------------------------------------------------------
+Enter a three digit number: 153
+153 is an Armstrong number.
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_07/Task_33_decimal_to_binary_while.c
+----------------------------------------------------------------------
+Enter a decimal number (0 or greater): 10
+Binary of 10 = 1010
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_07/Task_34_binary_to_decimal_while.c
+----------------------------------------------------------------------
+Enter a binary number (only 0s and 1s): 1010
+Decimal of 1010 = 10
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_07/Task_35_strong_numbers_in_range_do_while.c
+----------------------------------------------------------------------
+Enter the start of the range : 1
+Enter the end of the range   : 500
+Strong numbers between 1 and 500: 1 2 145 
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_08/Task_36_even_odd_using_function.c
+----------------------------------------------------------------------
+Enter an integer: 8
+8 is an even number.
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_08/Task_37_prime_numbers_between_two_numbers_functions.c
+----------------------------------------------------------------------
+Enter the first number  : 10
+Enter the second number : 30
+Prime numbers between 10 and 30: 11 13 17 19 23 29 
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_08/Task_38_circle_and_hexagon_area_functions.c
+----------------------------------------------------------------------
+Enter the radius of the circle       : 5
+Enter the side of the regular hexagon: 4
+
+Area of the circle  = 78.54
+Area of the hexagon = 41.57
+The circle has the larger area.
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_08/Task_39_factorial_using_recursion.c
+----------------------------------------------------------------------
+Enter a number (0 to 20): 5
+Factorial of 5 = 120
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_08/Task_40_fibonacci_using_recursion.c
+----------------------------------------------------------------------
+Enter the number of terms (1 to 40): 8
+Fibonacci series: 0 1 1 2 3 5 8 13 
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_08/Task_41_pascal_triangle_using_recursion.c
+----------------------------------------------------------------------
+Enter the number of rows (1 to 12): 6
+             1
+           1   1
+         1   2   1
+       1   3   3   1
+     1   4   6   4   1
+   1   5  10  10   5   1
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_09/Task_42_read_array_and_display_reverse.c
+----------------------------------------------------------------------
+Enter the number of values (1 to 100): 4
+Enter value 1: 10
+Enter value 2: 20
+Enter value 3: 30
+Enter value 4: 40
+Values in reverse order: 40 30 20 10 
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_09/Task_43_sort_array_ascending.c
+----------------------------------------------------------------------
+Enter the number of elements (1 to 100): 6
+Enter element 1: 42
+Enter element 2: -3
+Enter element 3: 17
+Enter element 4: 8
+Enter element 5: 99
+Enter element 6: 0
+Array in ascending order: -3 0 8 17 42 99 
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_09/Task_44_second_largest_element.c
+----------------------------------------------------------------------
+Enter the number of elements (2 to 100): 5
+Enter element 1: 10
+Enter element 2: 50
+Enter element 3: 50
+Enter element 4: 30
+Enter element 5: 20
+Largest element        = 50
+Second largest element = 30
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_09/Task_45_multiply_two_square_matrices.c
+----------------------------------------------------------------------
+Enter the order n of the square matrices (1 to 10): 2
+
+Enter the elements of matrix A:
+A[1][1] = 1
+A[1][2] = 2
+A[2][1] = 3
+A[2][2] = 4
+
+Enter the elements of matrix B:
+B[1][1] = 5
+B[1][2] = 6
+B[2][1] = 7
+B[2][2] = 8
+
+Product of the two matrices (A x B):
+    19    22
+    43    50
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_09/Task_46_determinant_of_3x3_matrix.c
+----------------------------------------------------------------------
+Enter the elements of the 3 x 3 matrix:
+m[1][1] = 2
+m[1][2] = 0
+m[1][3] = 1
+m[2][1] = 1
+m[2][2] = 3
+m[2][3] = 2
+m[3][1] = 1
+m[3][2] = 1
+m[3][3] = 1
+
+The matrix is:
+    2    0    1
+    1    3    2
+    1    1    1
+
+Determinant = 0
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_09/Task_47_string_length_without_library.c
+----------------------------------------------------------------------
+Enter a string: Hello C World
+Length of the string = 13
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_09/Task_48_palindrome_string.c
+----------------------------------------------------------------------
+Enter a string: level
+The string is a palindrome.
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_09/Task_49_reverse_string_using_string_h.c
+----------------------------------------------------------------------
+Enter a string: Hello World
+Original string : Hello World
+Reversed string : dlroW olleH
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_10/Task_50_time_struct_clock.c
+----------------------------------------------------------------------
+Enter the starting hour (0-23)  : 23
+Enter the starting minute (0-59): 59
+Enter the starting second (0-59): 58
+For how many seconds should the clock run? 4
+
+Clock started:
+23:59:58
+23:59:59
+00:00:00
+00:00:01
+00:00:02
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_10/Task_51_student_record_first_three_toppers.c
+----------------------------------------------------------------------
+
+--- Enter details of student 1 ---
+Name         : A One
+Roll number  : 1
+Total marks  : 50
+
+--- Enter details of student 2 ---
+Name         : B Two
+Roll number  : 2
+Total marks  : 91.5
+
+--- Enter details of student 3 ---
+Name         : C Three
+Roll number  : 3
+Total marks  : 77
+
+--- Enter details of student 4 ---
+Name         : D Four
+Roll number  : 4
+Total marks  : 88
+
+--- Enter details of student 5 ---
+Name         : E Five
+Roll number  : 5
+Total marks  : 60
+
+--- Enter details of student 6 ---
+Name         : F Six
+Roll number  : 6
+Total marks  : 95
+
+--- Enter details of student 7 ---
+Name         : G Seven
+Roll number  : 7
+Total marks  : 45
+
+--- Enter details of student 8 ---
+Name         : H Eight
+Roll number  : 8
+Total marks  : 70
+
+--- Enter details of student 9 ---
+Name         : I Nine
+Roll number  : 9
+Total marks  : 88.5
+
+--- Enter details of student 10 ---
+Name         : J Ten
+Roll number  : 10
+Total marks  : 30
+
+========== FIRST THREE TOPPERS ==========
+Rank 1 : F Six (Roll No. 6) - 95.00 marks
+Rank 2 : B Two (Roll No. 2) - 91.50 marks
+Rank 3 : I Nine (Roll No. 9) - 88.50 marks
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_11/Task_52_add_two_numbers_using_pointers.c
+----------------------------------------------------------------------
+Enter the first number  : -4
+Enter the second number : 11
+Sum of -4 and 11 = 7
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_11/Task_53_permutation_and_combination_pointers.c
+----------------------------------------------------------------------
+Enter the value of n (0 to 20): 5
+Enter the value of r (0 to n) : 2
+5P2 (permutation)  = 20
+5C2 (combination)  = 10
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_11/Task_54_reverse_array_using_pointers.c
+----------------------------------------------------------------------
+Enter the number of elements (1 to 100): 4
+Enter element 1: 1
+Enter element 2: 2
+Enter element 3: 3
+Enter element 4: 4
+Array in reverse order: 4 3 2 1 
+
+----------------------------------------------------------------------
+Appendix1_Practice_Programs/Week_11/Task_55_delete_character_from_string_pointers.c
+----------------------------------------------------------------------
+Enter a string: programming is fun
+Enter the character to delete: g
+Corrected string: prorammin is fun
+
